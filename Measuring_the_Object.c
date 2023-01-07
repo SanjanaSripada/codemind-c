@@ -3,37 +3,23 @@ int main()
 {
     int W,X,Y,Z;
     scanf("%d%d%d%d",&W,&X,&Y,&Z);
-    if(W==X)
     {
+        if(W==X)
         printf("YES");
-    }
-    else if(W==Y)
-    {
+        else if(W==Y)
         printf("YES");
-    }
-    else if(W==Z)
-    {
+         else if(W==Z)
         printf("YES");
-    }
-    else if(W==(X+Y))
-    {
+         else if(W==X+Y)
         printf("YES");
-    }
-    else if(W==(Y+Z))
-    {
+         else if(W==Y+Z)
         printf("YES");
-    }
-    else if(W==(Z+X))
-    {
+         else if(W==Z+X)
         printf("YES");
-    }
-    else if(W==(X+Y+Z))
-    {
+         else if(W==X+Y+Z)
         printf("YES");
-    }
-    else
-    {
+         else
         printf("NO");
     }
-    
+        
 }
