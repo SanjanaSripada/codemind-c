@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int m,n;
+    int n,m;
     scanf("%d%d",&m,&n);
-    if(m%2==0||n%2==0)
+    if(m%2!=0 && n%2!=0)
     {
-        printf("Player 1");
+        printf("Player 2");
     }
     else
     {
-        printf("Player 2");
+        printf("Player 1");
     }
 }
