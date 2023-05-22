@@ -3,10 +3,19 @@ int main()
 {
     int n,i,j;
     scanf("%d",&n);
-    for(i=64+n;i>=65;i--)
+    for(i=1;i<=n;i++)
     {
-        for(j=i;j>=65;j--)
-        printf("%c ",(i));
+        for(j=1;j<=n;j++)
+        {
+            if(j==1||j==n||j==i)
+            {
+                printf("* ");
+            }
+            else
+            {
+                printf("  ");
+            }
+        }
         printf("
 ");
     }
